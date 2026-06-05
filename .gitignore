@@ -1,0 +1,11 @@
+# Archivos
+*.fasta
+*.ipynb
+*.hmm.h*
+*.hmm
+*.ssi
+*.log
+
+# Directorios
+results/
+__pycache__/
