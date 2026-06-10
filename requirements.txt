@@ -1,4 +1,4 @@
 # Dependencias para el módulo de generación de HMM Logos (logo_generator.py)
-pandas>=1.0.0
-logomaker>=0.8
-matplotlib>=3.0.0
+pandas
+logomaker
+matplotlib

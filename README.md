@@ -111,7 +111,7 @@ Para extraer el modelo probabilístico de una familia y renderizar su distribuci
 Puedes indicarle a `hmmer2py` que ejecute el pipeline completo, extraiga de inmediato el reporte OOP para una proteína de interés en la terminal y guarde el Sequence Logo del dominio catalítico de tu elección en una sola línea de comandos:
 
 ```bash
-./hmmer2py.py --queries example_data/batch_job.txt --analyze P04585 --logo RVT_1
+./hmmer2py.py --queries example_data/single_job.txt --analyze P04585 --logo RVT_1
 
 ```
 
