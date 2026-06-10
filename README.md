@@ -73,7 +73,8 @@ El script principal (`hmmer2py.py`) actúa como un orquestador. Dependiendo de l
 Descarga secuencias, prepara la base de datos Pfam global, ejecuta `hmmscan` bajo umbrales curados (GA) y almacena los resultados de forma automática.
 
 ```bash
-./hmmer2py.py --queries example_data/batch_job.txt
+./hmmer2py.py --queries example_data/batch_job.txt --db-mode full
+
 
 ```
 
