@@ -51,7 +51,7 @@ El entorno requiere Python 3.10 o superior. Sigue estos pasos para preparar el p
 
 ```bash
 # Clonar el repositorio
-git clone [https://github.com/andresfc-bio/hmmer2py.git](https://github.com/andresfc-bio/hmmer2py.git)
+git clone https://github.com/andresfc-bio/hmmer2py.git
 cd hmmer2py
 
 # Dar permisos de ejecución al script principal
