@@ -23,7 +23,7 @@ def main():
     parser.add_argument("--tbl-file", type=str, help="Ruta a un archivo .tbl ya existente (salta el escaneo).")
     
     # --- ARGUMENTOS DE GRAFICACIÓN ---
-    parser.add_argument("--logo", type=str, help="Nombre del dominio Pfam (ej. SH2) para generar su HMM Logo en PDF.")
+    parser.add_argument("--logo", type=str, help="Nombre del dominio Pfam (ej. SH2) para generar su HMM Logo en SVG.")
 
     args = parser.parse_args()
     

@@ -18,7 +18,7 @@ def generate_logo(domain_name, db_path):
     os.makedirs("results", exist_ok=True)
     hmm_file = f"results/{domain_name}.hmm"
     txt_file = f"results/{domain_name}_logo.txt"
-    out_pdf = f"results/{domain_name}_logo.pdf"
+    out_svg = f"results/{domain_name}_logo.svg"
 
     print(f"\n[Logo] Extrayendo el perfil HMM para '{domain_name}' de la base de datos...")
     
@@ -75,7 +75,8 @@ def generate_logo(domain_name, db_path):
     axes.flatten()[-1].set_xlabel('Posición en el perfil HMM', fontsize=14)
 
     plt.tight_layout()
-    fig.savefig(out_pdf, bbox_inches='tight')
-    plt.close(fig) # Liberar memoria cerrando la figura
+    # Guardamos forzando el formato svg
+    fig.savefig(out_svg, format='svg', bbox_inches='tight') 
+    plt.close(fig) 
     
-    print(f"[Logo] ¡Completado! El logo se ha guardado en: {out_pdf}")
+    print(f"[Logo] ¡Completado! El logo se ha guardado en: {out_svg}")

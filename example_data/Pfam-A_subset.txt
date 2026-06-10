@@ -36,3 +36,14 @@ Immunoglobulin
 EGF
 Cadherin
 Fibronectin
+Gag_p17
+RVT_connect
+RVT_1
+RNase_H
+Gag_p24_C
+RVP
+RVT_thumb
+IN_DBD_C
+Integrase_Zn
+rve
+zf-CCHC
