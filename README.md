@@ -12,6 +12,8 @@ hmmer2py/
 ├── requirements.txt            # Dependencias del entorno de Python
 ├── LICENSE                     # Archivo oficial de la Licencia MIT
 ├── README.md                   # Documentación detallada del proyecto
+├── pfam.db                     # Base de datos Pfam-A.hmm.gz minima usada como demostración
+├── results/                    # Archivos de salida (ejecución del script)
 ├── scripts/
 │   ├── downloader.py           # Descarga e integración de secuencias desde UniProt
 │   ├── setup_hmmer.py          # Gestión, descarga e indexación de Pfam-A completa
